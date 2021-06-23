@@ -1,0 +1,98 @@
+/* Definindo o padrão dos tamanhos das caixas */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff8ea;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+header{
+    color:white;
+    background-color: #00471b;
+    text-align: center;
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.logo{
+    width: 10%;
+    display: inline;
+}
+
+.item{
+    color:#fff8ea;
+    font-size: 18px;
+    font-weight: bold;
+    border: 5px solid #fff8ea; /* borda envolvendo o conteúdo */
+    padding: 15px;
+    position: relative;
+    margin: 10px;
+    bottom:50px;
+    padding:25px;
+}
+
+
+.banner{
+    margin-top: 250px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: #00471b;
+}
+
+.imagem{
+    width: 30%;
+    display: inline;
+}
+
+.jogadores{
+
+display:inline-block;
+position: relative;
+bottom: 20%;
+left: 43%px;
+}
+
+h3{
+    color: #0077C0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #00471b;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+p{
+    margin: 0;
+}
+
+.fixo{
+    position:fixed;
+    width: 7%;
+    z-index: 2;
+    bottom:0;
+    right:0;
+}
+
+footer{
+    color:white;
+    background-color: #0077C0;
+    text-align: center;
+    padding: 25px;
+}
